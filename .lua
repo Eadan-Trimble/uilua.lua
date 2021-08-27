@@ -50,7 +50,7 @@ function lib:Startup(AutoConfig)
 	    local tab = {Contents = {}};
 	    self.Tabs[Name] = tab;
 		
-		
+		return tab;
 	end
 	
 	function self:AddFeature(tab,Name,Type)
